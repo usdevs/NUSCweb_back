@@ -1,4 +1,3 @@
-version: "3.8"
 services:
   dev-db:
     image: postgres:13
@@ -10,5 +9,9 @@ services:
       POSTGRES_DB: nusc
     networks:
       - nusc
+    volumes:
+      - nusc-backend-db:/var/lib/postgresql/data
 networks:
   nusc:
+volumes:
+  nusc-backend-db:
