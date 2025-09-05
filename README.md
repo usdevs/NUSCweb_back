@@ -1,3 +1,4 @@
+## NOTE: This repo is no longer actively being managed. Backend has been merged with Frontend repo to form NUSCweb
 ## Setup
 
 Add your Tele handle to the Users sheet in the Excel file, and your organisations you are a member of to the userOnOrg sheet in the file. Otherwise, you can manually add it yourself (steps below)
